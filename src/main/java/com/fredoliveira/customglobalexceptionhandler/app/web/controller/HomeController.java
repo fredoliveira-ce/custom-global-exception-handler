@@ -1,4 +1,4 @@
-package com.fredoliveira.customglobalexceptionhandler.app.web;
+package com.fredoliveira.customglobalexceptionhandler.app.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

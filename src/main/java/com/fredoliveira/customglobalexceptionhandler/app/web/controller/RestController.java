@@ -1,15 +1,14 @@
-package com.fredoliveira.customglobalexceptionhandler.app.web;
+package com.fredoliveira.customglobalexceptionhandler.app.web.controller;
 
 import com.fredoliveira.customglobalexceptionhandler.domain.Animal;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import javax.validation.Valid;
 
-@RestControllerAdvice
+@org.springframework.web.bind.annotation.RestController
 @RequestMapping("api/animal")
 public class RestController {
 
